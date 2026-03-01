@@ -17,3 +17,5 @@ df = pd.DataFrame(data)
 
 # 3. สร้าง Interactive Component (Sidebar Filter)
 st.sidebar.header("Filter Options")
+selected_region = st.sidebar.multiselect(
+    "เลือกภูมิภาค (Region):",
