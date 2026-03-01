@@ -20,3 +20,5 @@ st.sidebar.header("Filter Options")
 selected_region = st.sidebar.multiselect(
     "เลือกภูมิภาค (Region):",
     options=df['Region'].unique(),
+    default=df['Region'].unique()
+)
