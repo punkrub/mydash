@@ -39,3 +39,8 @@ with col1:
     # กราฟที่ 1: Bar Chart
     fig_bar = px.bar(df_filtered, x='Category', y='Sales', color='Region', barmode='group', title='ยอดขายแบ่งตามหมวดหมู่')
     st.plotly_chart(fig_bar, use_container_width=True)
+
+with col2:
+    # กราฟที่ 2: Pie Chart
+    fig_pie = px.pie(df_filtered, values='Profit', names='Category', title='สัดส่วนกำไรตามหมวดหมู่')
+    st.plotly_chart(fig_pie, use_container_width=True)
