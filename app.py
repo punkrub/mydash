@@ -11,3 +11,5 @@ data = {
     'Category': ['Electronics', 'Electronics', 'Clothing', 'Clothing', 'Food', 'Food'],
     'Region': ['North', 'South', 'North', 'South', 'North', 'South'],
     'Sales': [1500, 2000, 800, 1200, 500, 900],
+    'Profit': [300, 450, 150, 250, 100, 200]
+}
