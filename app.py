@@ -48,3 +48,5 @@ with col2:
 # กราฟที่ 3: Line Chart (แสดงภาพรวมแบบ Area)
 fig_line = px.line(df_filtered, x='Category', y='Sales', color='Region', markers=True, title='แนวโน้มยอดขาย')
 st.plotly_chart(fig_line, use_container_width=True)
+
+st.caption("พัฒนาโดยใช้ Streamlit และ Plotly")
