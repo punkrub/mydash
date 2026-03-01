@@ -14,3 +14,6 @@ data = {
     'Profit': [300, 450, 150, 250, 100, 200]
 }
 df = pd.DataFrame(data)
+
+# 3. สร้าง Interactive Component (Sidebar Filter)
+st.sidebar.header("Filter Options")
