@@ -44,3 +44,7 @@ with col2:
     # กราฟที่ 2: Pie Chart
     fig_pie = px.pie(df_filtered, values='Profit', names='Category', title='สัดส่วนกำไรตามหมวดหมู่')
     st.plotly_chart(fig_pie, use_container_width=True)
+
+# กราฟที่ 3: Line Chart (แสดงภาพรวมแบบ Area)
+fig_line = px.line(df_filtered, x='Category', y='Sales', color='Region', markers=True, title='แนวโน้มยอดขาย')
+st.plotly_chart(fig_line, use_container_width=True)
