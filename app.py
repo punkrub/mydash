@@ -32,3 +32,10 @@ st.dataframe(df_filtered)
 
 # 5. สร้าง Graph (อย่างน้อย 3 กราฟ)
 st.markdown("### 📈 Data Visualizations")
+
+col1, col2 = st.columns(2)
+
+with col1:
+    # กราฟที่ 1: Bar Chart
+    fig_bar = px.bar(df_filtered, x='Category', y='Sales', color='Region', barmode='group', title='ยอดขายแบ่งตามหมวดหมู่')
+    st.plotly_chart(fig_bar, use_container_width=True)
