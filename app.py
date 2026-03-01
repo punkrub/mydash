@@ -22,3 +22,6 @@ selected_region = st.sidebar.multiselect(
     options=df['Region'].unique(),
     default=df['Region'].unique()
 )
+
+# กรองข้อมูลตามที่ผู้ใช้เลือกจาก Sidebar
+df_filtered = df[df['Region'].isin(selected_region)]
