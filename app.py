@@ -10,3 +10,4 @@ st.title("📊 Sales Dashboard อย่างง่าย")
 data = {
     'Category': ['Electronics', 'Electronics', 'Clothing', 'Clothing', 'Food', 'Food'],
     'Region': ['North', 'South', 'North', 'South', 'North', 'South'],
+    'Sales': [1500, 2000, 800, 1200, 500, 900],
