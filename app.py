@@ -19,3 +19,4 @@ df = pd.DataFrame(data)
 st.sidebar.header("Filter Options")
 selected_region = st.sidebar.multiselect(
     "เลือกภูมิภาค (Region):",
+    options=df['Region'].unique(),
