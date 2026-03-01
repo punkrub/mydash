@@ -9,3 +9,4 @@ st.title("📊 Sales Dashboard อย่างง่าย")
 # 2. สร้างข้อมูลจำลอง (ใช้ข้อมูลอะไรก็ได้)
 data = {
     'Category': ['Electronics', 'Electronics', 'Clothing', 'Clothing', 'Food', 'Food'],
+    'Region': ['North', 'South', 'North', 'South', 'North', 'South'],
