@@ -28,3 +28,4 @@ df_filtered = df[df['Region'].isin(selected_region)]
 
 # 4. แสดงผลข้อมูล
 st.markdown("### 📋 ข้อมูลที่เลือก")
+st.dataframe(df_filtered)
